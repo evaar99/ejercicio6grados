@@ -11,10 +11,36 @@ package ejercicio6grados;
 public class Ejercicio6grados {
 
     /**
+     * Método que convierte grados Farenheit a Celsius.
+     *
+     * @param faren Grados Farenheit introducidos por el usuario.
+     * @return Devuelve el resultado de convertir grados Farenheit a Celsius.
+     */
+    public static double farenheittocelsius(double faren) {
+        double celsius;
+        celsius = (faren - 32) * 5 / 9;
+        return celsius;
+    }
+
+    /**
+     * Método que convierte grados Celsius a Farenheit.
+     *
+     * @param celsius Grados Celsius introducidos por el usuario.
+     * @return Devuelve el resultado de convertir grados Celsius a Farenheit.
+     */
+    public static double celsiustufarenheit(double celsius) {
+        double faren;
+        faren = (0 * 9 / 5) + 32;
+
+        return faren;
+    }
+
+    /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        //EVA - EJERCICIO 6 - ENTORNOS DE DESARROLLO
+
     }
-    
+
 }
