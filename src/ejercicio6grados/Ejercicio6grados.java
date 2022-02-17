@@ -30,7 +30,7 @@ public class Ejercicio6grados {
      */
     public static double celsiustufarenheit(double celsius) {
         double faren;
-        faren = (0 * 9 / 5) + 32;
+        faren = (celsius * 9 / 5) + 32;
 
         return faren;
     }
